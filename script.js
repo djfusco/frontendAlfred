@@ -11,8 +11,9 @@ document.getElementById('apiForm').addEventListener('submit', function(event) {
         engine: engine
     }; 
 
-    const apiBaseUrl = process.env.VERCEL_URL;
-    const apiUrl = `https://${apiBaseUrl}/api/askNew`;
+    //const apiBaseUrl = process.env.VERCEL_URL;
+    //const apiUrl = `https://${apiBaseUrl}/api/askNew`;
+    const apiUrl = `https://frontend-alfred.vercel.app/api/askNew`;
     fetch(apiUrl, {
         method: 'POST',
         headers: {
