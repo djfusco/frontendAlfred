@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config()
 
-const PINECONE_API_KEY = process.env.PINECONE_APIKEY;
+const PINECONE_API_KEY = process.env.PINECONE_API_KEY;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const OPENAI_EMBEDDING_MODEL = "text-embedding-ada-002";
